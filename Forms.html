@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html style="background-color: blue;" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="Forms.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>Contact Us</h1>
+
+      <h3>
+        Do you have any questions? We would love to hear from you! We will
+        respond as soon as possible.
+      </h3>
+
+      <form
+        action="https://formspree.io/xbjzgqvo"
+        method="POST"
+        class="Subform"
+      >
+        <label for="name">
+          Enter Name
+          <input class="name" type="text" name="text" />
+        </label>
+        <label class="email" for="Email">
+          <br />Enter Email
+          <input class="email" type="email" name="email" />
+        </label>
+        <label for="radio">
+          <br /><br />
+          <input
+            name="00-25"
+            class="radio"
+            class="radio"
+            type="radio"
+            name="age"
+            value="0-25"
+            id="option-1"
+          />
+          <label for="option-1">00-25</label> <br /><br />
+          <input
+            name="26-35"
+            class="radio"
+            type="radio"
+            name="age"
+            value="26-35"
+            id="option-2"
+          />
+          <label for="option-2">26-50</label><br /><br />
+          <input
+            name="36-50"
+            class="radio"
+            type="radio"
+            name="age"
+            value="36-50"
+            id="option-3"
+          />
+          <label for="option-1">36-50</label><br /><br />
+          <input
+            name="51-60"
+            class="radio"
+            type="radio"
+            name="age"
+            value="51-60"
+            id="option-4"
+          />
+          <label for="option-1">51-60</label><br /><br />
+          <input
+            name="61-80"
+            class="radio"
+            type="radio"
+            name="age"
+            value="61-80"
+            id="option-5"
+          />
+          <label for="option-1">61-80</label><br /><br />
+        </label>
+        <br /><br />
+        <input name="submit" type="submit" value="Submit" id="button" />
+      </form>
+    </div>
+  </body>
+</html>
