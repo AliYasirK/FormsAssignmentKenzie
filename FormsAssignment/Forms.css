@@ -1,0 +1,67 @@
+.box {
+  text-align: center;
+  background-color: white;
+  height: 600px;
+}
+
+.Subform {
+  max-width: auto;
+  border: 2px solid black;
+}
+
+#button {
+  width: 100px;
+  background-color: red;
+  color: white;
+}
+
+.name {
+  width: 400px;
+}
+
+.email {
+  width: 400px;
+}
+
+.radio {
+  width: 50px;
+}
+
+@media (min-width: 130px) {
+  .name {
+    width: 100px;
+  }
+
+  .email {
+    width: 100px;
+  }
+
+  .radio {
+    width: 50px;
+  }
+}
+
+@media (min-width: 500px) {
+  .Subform {
+    max-width: auto;
+    border: 2px solid black;
+  }
+
+  #button {
+    width: 100px;
+    background-color: red;
+    color: white;
+  }
+
+  .name {
+    width: 400px;
+  }
+
+  .email {
+    width: 400px;
+  }
+
+  .radio {
+    width: 50px;
+  }
+}
